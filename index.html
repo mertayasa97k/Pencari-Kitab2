@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tonton Video</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:#0f172a;
+  font-family:Arial,sans-serif;
+  color:#fff;
+  display:flex;
+  justify-content:center;
+}
+
+/* FRAME */
+.container{
+  width:100%;
+  max-width:460px;
+  padding:16px;
+  text-align:center;
+}
+
+/* JUDUL */
+h2{font-size:18px;margin-bottom:14px}
+
+/* VIDEO */
+.video-wrapper{
+  position:relative;
+  width:100%;
+  padding-top:56.25%;
+  background:#000;
+  border-radius:14px;
+  overflow:hidden;
+  margin-bottom:14px;
+}
+.video-wrapper iframe{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+}
+
+/* SERVER */
+.servers{display:flex;gap:6px;margin-bottom:12px}
+.servers a{
+  flex:1;
+  background:#2563eb;
+  padding:10px 0;
+  border-radius:8px;
+  color:#fff;
+  text-decoration:none;
+  font-size:14px;
+  font-weight:bold;
+}
+
+/* DOWNLOAD */
+.download{
+  display:block;
+  background:#ec4899;
+  padding:14px;
+  border-radius:8px;
+  color:#fff;
+  text-decoration:none;
+  margin-bottom:14px;
+  font-weight:bold;
+}
+
+/* SUB */
+h3{font-size:15px;margin:10px 0;color:#facc15}
+
+/* ===== KOTAK VIDEO ===== */
+.video-cards{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:12px;
+}
+
+.video-card{
+  position:relative;
+  aspect-ratio:1/1;
+  border-radius:12px;
+  overflow:hidden;
+  background:#1e293b;
+}
+
+.video-card img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+
+/* OVERLAY BUTTON */
+.overlay-btn{
+  position:absolute;
+  inset:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:rgba(0,0,0,.55);
+  color:#fff;
+  font-weight:bold;
+  font-size:14px;
+  opacity:0;
+  transition:.25s;
+  cursor:pointer;
+}
+
+.video-card:hover .overlay-btn,
+.video-card:active .overlay-btn{
+  opacity:1;
+}
+
+/* FOOTER */
+.footer{margin-top:18px;font-size:12px;opacity:.6}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+  <h2>📺 Tonton Video Dibawah Ini</h2>
+
+  <!-- VIDEO EMBED -->
+  <div class="video-wrapper">
+    <iframe src="https://filemoon.sx/e/7nm1436ee39h"
+            frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <!-- SERVER -->
+  <div class="servers">
+    <a href="https://www.effectivegatecpm.com/jqch4m1gp?key=784f54a3fd78a40ce20dcba742aceb1d" target="_blank">Server 1</a>
+    <a href="https://www.effectivegatecpm.com/cyiqdnnj77?key=4ca4be6eb8746c4559c3584562eeaecd" target="_blank">Server 2</a>
+    <a href="https://www.effectivegatecpm.com/b4akpx94m3?key=409b764d1785c3667444849ceb2ef471" target="_blank">Server 3</a>
+  </div>
+
+  <!-- DOWNLOAD -->
+  <a href="https://www.effectivegatecpm.com/dpzzyaer?key=08bf822a1916501cd52661ea22ef9606" target="_blank" class="download">
+    ⬇ Download Video
+  </a>
+
+  <h3>🔥 Tonton Video Lainnya 🔥</h3>
+
+  <!-- KOTAK VIDEO (OVERLAY KE ADSTERRA) -->
+  <div class="video-cards">
+
+    <div class="video-card">
+      <img src="gambar 1.jpg">
+      <span class="overlay-btn"
+            onclick="window.open('https://www.effectivegatecpm.com/i4bg2mqnkg?key=c4c9a07c087811c9466d3f500fd6089a','_blank')">
+        Tonton Sekarang
+      </span>
+    </div>
+
+    <div class="video-card">
+      <img src="gambar 2.jpg">
+      <span class="overlay-btn"
+            onclick="window.open('https://www.effectivegatecpm.com/jqch4m1gp?key=784f54a3fd78a40ce20dcba742aceb1d','_blank')">
+        Tonton Sekarang
+      </span>
+    </div>
+
+    <div class="video-card">
+      <img src="gambar 3.jpg">
+      <span class="overlay-btn"
+            onclick="window.open('https://www.effectivegatecpm.com/cyiqdnnj77?key=4ca4be6eb8746c4559c3584562eeaecd','_blank')">
+        Tonton Sekarang
+      </span>
+    </div>
+
+  </div>
+
+  <div class="footer">© 2025 ViralPage | Powered by Pencari Kitab</div>
+
+</div>
+</body>
+</html>
